@@ -462,20 +462,16 @@ hr {
 		flex-direction: column;
 	}
 	.email-info, .resume-info {
-		justify-content: center;
+		justify-content: flex-start;
+		margin-left: 27%;
 		margin-bottom: 55px;
-		width: 400px;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width: 770px) {
 	#contact .sub-container2 {
 		padding-top: 50px;
-	}
-	.email-info, .resume-info {
-		margin: 0 0 55px 27%;
-		width: 100%;
-		justify-content: flex-start;
 	}
 }
 
@@ -562,10 +558,20 @@ hr {
 		flex-direction: column;
 		padding: 15px 0;
 	}
+	#footer .logo a {
+		width: 100%;
+		text-align: center;
+	}
 	#footer .links {
 		margin-top: 10px;
 		margin-bottom: 10px;
+		width: 100%;
+		text-align: center;
 	} 
+	#footer .copy {
+		width: 100%;
+		text-align: center;
+	}
 	.copy p {
 		font-size: 12px;
 	}
