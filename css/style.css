@@ -386,6 +386,10 @@ hr {
 	padding: 30px 0;
 }
 
+#footer .logo {
+	width: calc(100% / 3);
+}
+
 #footer .logo a{
 	color: #8f7fa8;
 }
@@ -396,6 +400,8 @@ hr {
 
 #footer .links {
 	margin: 0;
+	text-align: center;
+	width: calc(100% / 3);
 }
 
 #footer .links a i {
@@ -407,10 +413,15 @@ hr {
 	transition: color 0.1s;
 }
 
+#footer .copy {
+	text-align: right;
+	width: calc(100% / 3);
+}
+
 #footer .copy p {
 	color: #8f7fa8;
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 /* ------------ Media Queries ------------ */
