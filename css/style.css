@@ -105,13 +105,11 @@ hr {
 	padding-top: 40px;
 }
 
-.logo a {
-	color: white;
-	font-family: 'Pacifico', cursive;
-	font-size: 36px;
+.logo a img {
 	text-decoration: none;
 	float: left;
 	margin-top: -10px;
+	width: 180px;
 }
 
 .navbar {
@@ -177,7 +175,7 @@ hr {
 .attention h2	{
 	color: white;
 	font-size: 43px;
-	font-family: 'Satisfy', cursive;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* ------------ About Section ------------ */
@@ -206,8 +204,32 @@ hr {
 	line-height: 1.5em;
 }
 
+.technical-skills-h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	padding-left: 135px;
+	padding-right: 135px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+.technical-skills {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 135px;
+	padding-right: 135px;
+	line-height: 1.4em;
+}
+
+.pipe {
+	color: #03b297;
+}
+
 .links {
-	margin-top: 85px;
+	margin-top: 50px;
 	margin-bottom: 85px;
 }
 
@@ -282,12 +304,15 @@ hr {
 	font-weight: bold;
 	font-size: 24px;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
+	width: 40%;
 	margin-bottom: 10px;
+	border-bottom: 2px solid transparent;
 }
 
 .card-back a:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid #03b297;
+	transition: border-bottom 0.1s, color 0.1s;
 }
 
 /* ------------ Contact Section ------------ */
@@ -390,7 +415,7 @@ hr {
 	width: calc(100% / 3);
 }
 
-#footer .logo a{
+#footer .logo a img{
 	color: #8f7fa8;
 }
 
