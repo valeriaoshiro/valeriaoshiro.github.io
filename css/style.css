@@ -475,6 +475,14 @@ hr {
 		padding-left: 60px;
 		padding-right: 60px;
 	}	
+	.technical-skills-h5 {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.technical-skills {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
 	.card {
 		width: 40%;
 		height: 200px;
@@ -571,6 +579,14 @@ hr {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.technical-skills-h5 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.technical-skills {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	.links {
 		margin-top: 50px;
 	}
@@ -583,9 +599,8 @@ hr {
 		flex-direction: column;
 		padding: 15px 0;
 	}
-	#footer .logo a {
-		width: 100%;
-		text-align: center;
+	#footer .logo {
+		margin-left: -1%;
 	}
 	#footer .links {
 		margin-top: 10px;
@@ -612,6 +627,9 @@ hr {
 	}
 	.email-info, .resume-info {
 		margin-left: 10%;;
+	}
+	#footer .logo {
+		margin-left: -12%;
 	}
 }	
 
