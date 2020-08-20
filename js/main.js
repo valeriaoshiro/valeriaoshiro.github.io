@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	//Copyright year dynamically added
+	$('.copy').append(`<p>${new Date().getFullYear()}. All rights reserved.</p>`);
+
 	//when the user clicks on a project picture, it shows the links for the code and site
 	$('.card').on('click', function(){
 		if($(this).children('.card-front').hasClass('hidden')){
@@ -52,9 +55,6 @@ $(document).ready(function(){
  		$('html, body').animate({scrollTop: 0}, 300);
  		return false;
  	})
-
-
-
 });
 
 
