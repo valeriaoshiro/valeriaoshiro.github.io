@@ -2,38 +2,6 @@ $(document).ready(function(){
 	//Copyright year dynamically added
 	$('.copy').append(`<p>${new Date().getFullYear()}. All rights reserved.</p>`);
 
-	//when the user clicks on a project picture, it shows the links for the code and site
-	$('.card').on('click', function(){
-		if($(this).children('.card-front').hasClass('hidden')){
-			$(this).children('.card-back').slideUp(200);
-			$(this).children('.card-back').addClass('hidden');
-			// $('.card-front').show(150);
-			$(this).children('.card-front').removeClass('hidden');
-
-		} else {
-			// $('.card-front').hide(500);
-			$(this).children('.card-front').addClass('hidden');
-			$(this).children('.card-back').slideDown(200);
-			$(this).children('.card-back').removeClass('hidden');
-		}
-		
-	});
-	//when the user mousenter
-	$('.card').hover(
-		function(){
-			// $('.card-front').hide(500);
-			$(this).children('.card-front').addClass('hidden');
-			$(this).children('.card-back').slideDown(200);
-			$(this).children('.card-back').removeClass('hidden');
-		},
-		function(){
-			$(this).children('.card-back').slideUp(200);
-			$(this).children('.card-back').addClass('hidden');
-			// $('.card-front').show(150);
-			$(this).children('.card-front').removeClass('hidden');
-		}
-	);
-
 	//when using a small screen, the navbar changes to a hamburger
 	//when the hamburger is clicked, it opens the menu
 	$('.burger-nav').on('click', function(){
