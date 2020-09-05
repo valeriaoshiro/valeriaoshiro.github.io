@@ -16,4 +16,7 @@ This is my personal portfolio. It is a single page, with navigation bar on top, 
 - Learned how to use git and Github.
 - Learned how to host my own website in Github.
 - Purchased my own domain and linked it to Github.
-- Learned how to use formspree.io. It's usefull in the form section.
+
+## Audit
+- Used Lighthouse to audit webpage
+![Lighthouse Audit Result](img/auditResult.png)
