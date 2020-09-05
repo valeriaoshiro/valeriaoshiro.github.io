@@ -285,7 +285,7 @@ hr {
 
 .card img {
 	max-width: 100%;
-	height: 185px;
+	height: auto;
 	border-radius: 3px;
 }
 
@@ -352,15 +352,12 @@ hr {
 	padding: 90px 0 110px 0;
 }
 
-.email-info, .resume-info {
+.email-info {
 	display: flex;
 	align-items: center;
 }
 .email-info {
 	margin-right: 50px;
-}
-.resume-info {
-	margin-left: 50px;
 }
 
 .fa-envelope-o, .fa-file-text-o {
@@ -489,16 +486,13 @@ hr {
 	}
 	.card {
 		width: 40%;
-		height: 200px;
+		height: auto;
 		margin: 5%;
-	}	
-	.card-back a {
-		margin-bottom: 30px;
 	}	
 	#contact .sub-container2 {
 		flex-direction: column;
 	}
-	.email-info, .resume-info {
+	.email-info {
 		justify-content: flex-start;
 		margin-left: 27%;
 		margin-bottom: 55px;
@@ -506,14 +500,11 @@ hr {
 	}
 }
 
+/*Phone*/
 @media screen and (max-width: 770px) {
 	#contact .sub-container2 {
 		padding-top: 50px;
 	}
-}
-
-/*Phone*/
-@media screen and (max-width: 600px){
 	.container {
 		width: 97%;
 	}
@@ -596,7 +587,6 @@ hr {
 	}
 	.card {
 	  width: 90%;
-	  height: 250px;
 	  margin: 5%
 	}
 	#footer .sub-container {
@@ -604,7 +594,7 @@ hr {
 		padding: 15px 0;
 	}
 	#footer .logo {
-		margin-left: -1%;
+		width: auto;
 	}
 	#footer .links {
 		margin-top: 10px;
@@ -626,14 +616,8 @@ hr {
 	h3 {
 		text-align: center;
 	}
-	.card {
-		height: 200;
-	}
-	.email-info, .resume-info {
+	.email-info {
 		margin-left: 10%;;
-	}
-	#footer .logo {
-		margin-left: -12%;
 	}
 }	
 
